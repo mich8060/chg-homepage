@@ -31,6 +31,11 @@
                     <path d="M59.462 55.2547H52.8479V42.6383H40.4607V55.2547H33.9231V25.1664H40.4607V36.4447H52.8479V25.1664H59.462V55.2547Z" fill="#80BC00"/>
                 </svg>                                       
             </div>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav class="nav">
                 <a href="#" class="nav-link dropdown">
                     Clinical workforce solutions
@@ -53,23 +58,23 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-container">
-            <div class="hero-content">
+            <div class="hero-content fade-in">
                 <h1 class="hero-headline">We power the people who power healthcare.</h1>
             </div>
             <div class="hero-stats">
-                <div class="stat-box">
+                <div class="stat-box fade-in" data-delay="0">
                     <div class="stat-number">27M+</div>
                     <div class="stat-label">Lives impacted annually</div>
                 </div>
-                <div class="stat-box">
+                <div class="stat-box fade-in" data-delay="200">
                     <div class="stat-number">130+</div>
                     <div class="stat-label">Specialties staffed</div>
                 </div>
-                <div class="stat-box">
+                <div class="stat-box fade-in" data-delay="400">
                     <div class="stat-number">50%+</div>
                     <div class="stat-label">Large health systems are partners</div>
                 </div>
-                <div class="stat-box">
+                <div class="stat-box fade-in" data-delay="600">
                     <div class="stat-number">200K+</div>
                     <div class="stat-label">Multi-state licensed physicians</div>
                 </div>
@@ -79,9 +84,10 @@
 
     <!-- Powering Healthcare Section -->
     <section class="powering">
+        <div class="powering-bg parallax-element" data-speed="0.3"></div>
         <div class="powering-container">
             <h2 class="powering-headline">Powering healthcare takes more than staffing</h2>
-            <p class="powering-description">Yes, we're the nation's leading physician and AP staffing firm. But we offer far more, with technology and AI capabilities focused on addressing the complexities of the healthcare workforce to go along with trusted advisory services. </p>
+            <p class="powering-description">Yes, we're the nation's leading physician and AP staffing firm. But we offer far more, with technology and AI capabilities focused on addressing the complexities of the healthcare workforce to go along with trusted advisory services. </p>
             <div class="powering-story">
                 Physician & AP expertise
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,36 +102,63 @@
         </div>
         <section class="solutions">
             <div class="solutions-container">
-                <div class="solutions-header">
+                <div class="solutions-header fade-in">
                     <h2 class="solutions-headline">Advanced CHG Workforce Solutions</h2>
-                    <p class="solutions-description">We combine physician workforce expertise, innovation, and scale to solve healthcare delivery challenges others can’t. </p>
+                    <p class="solutions-description">We combine physician workforce expertise, innovation, and scale to solve healthcare delivery challenges others can't. </p>
                 </div>
                 <div class="solutions-cards">
-                    <div class="solution-card">
+                    <div class="solution-card fade-in" data-delay="0">
                         <div class="card-image">
                             <div class="image-placeholder staffing-image"><img src="assets/solutions-staffing.png" alt=""></div>
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Staffing</h3>
-                            <p class="card-description">Unmatched access to top physicians and APPs.</p>
+                            <div class="card-descriptions">
+                                <p class="card-description">Unmatched access to top physicians and APPs.</p>
+                                <p class="card-description-long">Unmatched access to physicians and APPs, as well as other complementary clinical staff, across nearly every specialty, permanent placement and locum tenens.</p>
+                                <a href="#" class="card-link">
+                                    Learn more
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.8538 8.35372L9.35375 12.8537C9.25993 12.9475 9.13268 13.0003 9 13.0003C8.86732 13.0003 8.74007 12.9475 8.64625 12.8537C8.55243 12.7599 8.49972 12.6327 8.49972 12.5C8.49972 12.3673 8.55243 12.24 8.64625 12.1462L12.2931 8.49997H2.5C2.36739 8.49997 2.24021 8.44729 2.14645 8.35353C2.05268 8.25976 2 8.13258 2 7.99997C2 7.86736 2.05268 7.74019 2.14645 7.64642C2.24021 7.55265 2.36739 7.49997 2.5 7.49997H12.2931L8.64625 3.85372C8.55243 3.7599 8.49972 3.63265 8.49972 3.49997C8.49972 3.36729 8.55243 3.24004 8.64625 3.14622C8.74007 3.0524 8.86732 2.99969 9 2.99969C9.13268 2.99969 9.25993 3.0524 9.35375 3.14622L13.8538 7.64622C13.9002 7.69266 13.9371 7.7478 13.9623 7.8085C13.9874 7.8692 14.0004 7.93427 14.0004 7.99997C14.0004 8.06568 13.9874 8.13074 13.9623 8.19144C13.9371 8.25214 13.9002 8.30729 13.8538 8.35372Z" fill="black"/>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="solution-card">
+                    <div class="solution-card fade-in" data-delay="200">
                         <div class="card-image">
                             <div class="image-placeholder technology-image"><img src="assets/solutions-technology.png" alt=""></div>
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Technology</h3>
-                            <p class="card-description">Advanced workforce solutions.</p>
+                            <div class="card-descriptions">
+                                <p class="card-description">Advanced workforce solutions.</p>
+                                <p class="card-description-long">AI-powered workforce solutions that help you reduce costs, improve workforce efficiency, and streamline your credentialing.</p>
+                                <a href="#" class="card-link">
+                                    Learn more
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.8538 8.35372L9.35375 12.8537C9.25993 12.9475 9.13268 13.0003 9 13.0003C8.86732 13.0003 8.74007 12.9475 8.64625 12.8537C8.55243 12.7599 8.49972 12.6327 8.49972 12.5C8.49972 12.3673 8.55243 12.24 8.64625 12.1462L12.2931 8.49997H2.5C2.36739 8.49997 2.24021 8.44729 2.14645 8.35353C2.05268 8.25976 2 8.13258 2 7.99997C2 7.86736 2.05268 7.74019 2.14645 7.64642C2.24021 7.55265 2.36739 7.49997 2.5 7.49997H12.2931L8.64625 3.85372C8.55243 3.7599 8.49972 3.63265 8.49972 3.49997C8.49972 3.36729 8.55243 3.24004 8.64625 3.14622C8.74007 3.0524 8.86732 2.99969 9 2.99969C9.13268 2.99969 9.25993 3.0524 9.35375 3.14622L13.8538 7.64622C13.9002 7.69266 13.9371 7.7478 13.9623 7.8085C13.9874 7.8692 14.0004 7.93427 14.0004 7.99997C14.0004 8.06568 13.9874 8.13074 13.9623 8.19144C13.9371 8.25214 13.9002 8.30729 13.8538 8.35372Z" fill="black"/>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="solution-card">
+                    <div class="solution-card fade-in" data-delay="400">
                         <div class="card-image">
                             <div class="image-placeholder advisory-image"><img src="assets/solutions-advisory.png" alt=""></div>
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">Advisory</h3>
-                            <p class="card-description">Strategic guidance and planning.</p>
+                            <div class="card-descriptions">
+                                <p class="card-description">Strategic guidance and planning.</p>
+                                <p class="card-description-long">Strategic guidance and planning rooted in real-world staffing trends and operational benchmarks to empower your team.</p>
+                                <a href="#" class="card-link">
+                                    Learn more
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.8538 8.35372L9.35375 12.8537C9.25993 12.9475 9.13268 13.0003 9 13.0003C8.86732 13.0003 8.74007 12.9475 8.64625 12.8537C8.55243 12.7599 8.49972 12.6327 8.49972 12.5C8.49972 12.3673 8.55243 12.24 8.64625 12.1462L12.2931 8.49997H2.5C2.36739 8.49997 2.24021 8.44729 2.14645 8.35353C2.05268 8.25976 2 8.13258 2 7.99997C2 7.86736 2.05268 7.74019 2.14645 7.64642C2.24021 7.55265 2.36739 7.49997 2.5 7.49997H12.2931L8.64625 3.85372C8.55243 3.7599 8.49972 3.63265 8.49972 3.49997C8.49972 3.36729 8.55243 3.24004 8.64625 3.14622C8.74007 3.0524 8.86732 2.99969 9 2.99969C9.13268 2.99969 9.25993 3.0524 9.35375 3.14622L13.8538 7.64622C13.9002 7.69266 13.9371 7.7478 13.9623 7.8085C13.9874 7.8692 14.0004 7.93427 14.0004 7.99997C14.0004 8.06568 13.9874 8.13074 13.9623 8.19144C13.9371 8.25214 13.9002 8.30729 13.8538 8.35372Z" fill="black"/>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -146,20 +179,20 @@
                 <div class="different-text">
                     <div class="different-content-text">
                         <h2 class="different-title left-align">What makes us different?</h2>
-                        <p class="different-intro">We combine physician workforce expertise, innovation, and scale to solve healthcare delivery challenges others can’t.</p>
+                        <p class="different-intro">We combine physician workforce expertise, innovation, and scale to solve healthcare delivery challenges others can't.</p>
                     </div>
                     <div class="differentiators">
-                        <div class="differentiator-item">
+                        <div class="differentiator-item fade-in" data-delay="0">
                             <h3 class="differentiator-title">Innovation</h3>
-                            <p class="differentiator-description">Enjoy an optimized workforce, with transparency, insight, and intelligence that decreases your clinical workforce burden. </p>
+                            <p class="differentiator-description">Enjoy an optimized workforce, with transparency, insight, and intelligence that decreases your clinical workforce burden. </p>
                         </div>
-                        <div class="differentiator-item">
+                        <div class="differentiator-item fade-in" data-delay="400">
                             <h3 class="differentiator-title">Service</h3>
-                            <p class="differentiator-description">We deliver high-quality physicians, advanced practice professionals, and allied health professionals to meet a huge range of needs. </p>
+                            <p class="differentiator-description">We deliver high-quality physicians, advanced practice professionals, and allied health professionals to meet a huge range of needs. </p>
                         </div>
-                        <div class="differentiator-item">
+                        <div class="differentiator-item fade-in" data-delay="800">
                             <h3 class="differentiator-title">Purpose</h3>
-                            <p class="differentiator-description">As a purpose-driven organization focused on service, our work improves care in communities across the US and even globally. </p>
+                            <p class="differentiator-description">As a purpose-driven organization focused on service, our work improves care in communities across the US and even globally. </p>
                         </div>
                     </div>
                     <button class="btn btn-primary">Explore solutions</button>
@@ -171,9 +204,9 @@
     <!-- Guidance Section -->
     <section class="guidance">
         <div class="guidance-container">
-            <h2 class="guidance-headline">Guidance for Today's Workforce Challenges</h2>
+            <h2 class="guidance-headline fade-in">Guidance for Today's Workforce Challenges</h2>
             <div class="resource-cards">
-                <div class="resource-card">
+                <div class="resource-card fade-in" data-delay="0">
                     <div class="resource-image">
                         <div class="image-placeholder resource-placeholder"><img src="assets/resources-playbook.png" alt=""></div>
                     </div>
@@ -181,7 +214,7 @@
                     <p class="resource-description">An evolving physician workforce calls for evolving recruitment strategies. This report provides expert perspective on how healthcare leaders can effectively build a tomorrow-ready workforce.</p>
                     <a href="#" class="resource-link">Learn more</a>
                 </div>
-                <div class="resource-card">
+                <div class="resource-card fade-in" data-delay="200">
                     <div class="resource-image">
                         <div class="image-placeholder resource-placeholder"><img src="assets/resources-workforce.png" alt=""></div>
                     </div>
@@ -189,7 +222,7 @@
                     <p class="resource-description">Learn how technology presents a promising solution to rising healthcare demands, offering tools that can streamline operations, improve workforce management, and enhance decision-making.</p>
                     <a href="#" class="resource-link">Learn more</a>
                 </div>
-                <div class="resource-card">
+                <div class="resource-card fade-in" data-delay="400">
                     <div class="resource-image">
                         <div class="image-placeholder resource-placeholder"><img src="assets/resources-report.png" alt=""></div>
                     </div>
@@ -209,7 +242,7 @@
         <div class="career-container">
             <div class="career-overlay"></div>
             <div class="career-graphic"></div>
-            <div class="career-content">
+            <div class="career-content fade-in">
                 <h2 class="career-headline">Join our sales and support team here at CHG</h2>
                 <p class="career-keywords">
                     <span>Growth-minded</span><span>&bull;</span><span></span>Service-driven</span><span>&bull;</span><span></span>Purpose-focused</span>
@@ -221,7 +254,7 @@
 
     <!-- Let's Work Together Section -->
     <section class="work-together">
-        <div class="work-together-container">
+        <div class="work-together-container fade-in" data-delay="400">
             <h2 class="work-together-headline">Let's work together to improve tomorrow's healthcare.</h2>
             <button class="btn btn-outline">Connect with us</button>
         </div>
