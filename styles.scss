@@ -410,7 +410,7 @@ button {
         gap: 48px;
         width: 100%;
     }
-
+    
     &-container {
         display: flex;
         flex-direction: column;
@@ -490,10 +490,21 @@ button {
     .card-content {
         background: rgba(255, 255, 255, 0.8);
         top: 0;
+
+        &.long-content {
+            .card-link {
+                top:100px;
+            }
+            .card-descriptions {
+                max-height: 124px;
+            }
+        }
     }
     .card-descriptions {
         max-height: 108px;
     }
+
+
 
     .card-description {
         opacity: 0;

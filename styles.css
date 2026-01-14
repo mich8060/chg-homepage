@@ -445,6 +445,12 @@ button:hover {
   background: rgba(255, 255, 255, 0.8);
   top: 0;
 }
+.solution-card:hover .card-content.long-content .card-link {
+  top: 100px;
+}
+.solution-card:hover .card-content.long-content .card-descriptions {
+  max-height: 124px;
+}
 .solution-card:hover .card-descriptions {
   max-height: 108px;
 }
