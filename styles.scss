@@ -129,6 +129,13 @@ button {
     &:hover {
         background-color: #333;
     }
+
+    &.btn-secondary {
+        background-color: #fff;
+        color: #212529;
+        border: 1px solid #212529;
+        margin-bottom: -24px;
+    }
 }
 
 .container {
