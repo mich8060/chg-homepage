@@ -29,7 +29,7 @@
 }
 @font-face {
   font-family: "GuardianTextEgyp";
-  src: url("../assets/font/GuardianTextEgyp-Bold_2.ttf") format("truetype");
+  src: url("../assets/font/GuardianTextEgyp-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -528,7 +528,7 @@ button.btn-secondary {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 64px;
 }
 
 .different-container {
@@ -536,7 +536,7 @@ button.btn-secondary {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 64px;
   width: 100%;
   margin: 0 auto;
   max-width: 1280px;
@@ -564,6 +564,7 @@ button.btn-secondary {
   align-items: flex-start;
   justify-content: center;
   gap: 24px;
+  width: 480px;
 }
 
 .different-title {
